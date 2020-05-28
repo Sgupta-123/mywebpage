@@ -1,0 +1,98 @@
+
+  p {
+  border: 5px solid black;
+  background-color: lightblue;
+  width: 100%;
+  text-align: left;
+  height:200px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: Helvetica;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+
+.row { 
+  text-align: right;
+  width: 100%;
+}
+body
+{
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .col-lg-3,.col-lg-7 {
+    float: left; }
+    .col-lg-3
+   { width: 32%;
+  }
+  .col-lg-7
+  {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-7,.col-md-8{
+    float: left;}
+  .col-md-6 {
+    width: 48.50%;
+  }
+  .col-md-7 {
+      clear:both; 
+    width: 98%;
+  }
+  .col-md-8
+  {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+   .col-cg-3,.col-cg-7 {
+    float: left;}
+.col-cg-3
+    {
+    width: 85%;
+  }
+  .col-cg-7
+  {
+    text-align: center;
+  }
+  
+}
+
+.pizza
+{ 
+  font-size: 20px;
+  padding:.90px;
+  box-sizing: content-box;
+  border: 2px solid black;
+  font: 30px 30px 30px;
+background: pink;
+}
+.whitesaucepasta
+{ 
+  font-size: 20px;
+  padding:.90px;
+  box-sizing: content-box;
+  border: 2px solid black;
+  font: 30px 30px 30px;
+background: red;
+}
+.burger
+{ 
+  font-size: 20px;
+  padding:.90px;
+  box-sizing: content-box;
+  border: 2px solid black;
+  font: 30px 30px 30px;
+background: lightyellow;
+}
+
+
